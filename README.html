@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Chatbot README</title>
+</head>
+<body>
+    <h1>README for Python Chatbot</h1>
+
+    <h2>Introduction</h2>
+    <p>This Python Chatbot is an interactive, text-based conversation program that provides responses based on a predefined set of questions and answers. It utilizes a JSON file as a knowledge base, allowing easy updates and extensions to its question-answer pairs.</p>
+
+    <h2>Features</h2>
+    <ul>
+        <li><strong>Dynamic Question Matching:</strong> Uses <code>difflib.get_close_matches</code> to find the best match for user queries within a predefined threshold.</li>
+        <li><strong>Editable Knowledge Base:</strong> Stores question-answer pairs in a JSON file, which can be updated dynamically through user interaction.</li>
+        <li><strong>Simple and Interactive UI:</strong> Runs in the console with a straightforward text-based interface.</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <p>Python 3.x and a JSON file (<code>knowledge_base.json</code>) containing initial question-answer pairs.</p>
+
+    <h2>Installation</h2>
+    <ol>
+        <li>Clone the repository or download the source code.</li>
+        <li>Ensure Python 3.x is installed on your system.</li>
+        <li>Prepare a <code>knowledge_base.json</code> file or use the provided template.</li>
+    </ol>
+
+    <h2>Usage</h2>
+    <p>Run the script: <code>python main.py</code><br>
+    Interact with the chatbot by typing questions.<br>
+    Type 'quit' to exit the chatbot.</p>
+
+    <h2>Knowledge Base Format</h2>
+    <p>The <code>knowledge_base.json</code> should follow this structure:</p>
+    <pre>
+        {
+          "questions": [
+            {
+              "question": "Sample question?",
+              "answer": "Sample answer."
+            }
+            // Add more question-answer pairs here
+          ]
+        }
+    </pre>
+
+    <h2>Contributing</h2>
+    <p>To contribute to this project:</p>
+    <ol>
+        <li>Fork the repository.</li>
+        <li>Create a new branch (<code>git checkout -b feature/AmazingFeature</code>).</li>
+        <li>Commit your changes (<code>git commit -m 'Add some AmazingFeature'</code>).</li>
+        <li>Push to the branch (<code>git push origin feature/AmazingFeature</code>).</li>
+        <li>Open a pull request.</li>
+    </ol>
+
+    <h2>License</h2>
+    <p>This project is licensed under the <a href="LICENSE.txt">MIT License</a> - see the LICENSE file for details.</p>
+</body>
+</html>

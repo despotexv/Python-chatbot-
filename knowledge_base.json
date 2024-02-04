@@ -1,0 +1,48 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "answer": "The capital of France is Paris."
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answer": "The Mona Lisa was painted by Leonardo da Vinci."
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "answer": "The largest planet in our solar system is Jupiter."
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "answer": "Romeo and Juliet was written by William Shakespeare."
+    },
+    {
+      "question": "What is the boiling point of water?",
+      "answer": "The boiling point of water is 100 degrees Celsius or 212 degrees Fahrenheit."
+    },
+    {
+      "question": "How far is the Moon from Earth?",
+      "answer": "The average distance from the Moon to Earth is about 238,855 miles (384,400 kilometers)."
+    },
+    {
+      "question": "What language is primarily spoken in Brazil?",
+      "answer": "The primary language spoken in Brazil is Portuguese."
+    },
+    {
+      "question": "Who is known as the father of computers?",
+      "answer": "Charles Babbage is often referred to as the father of computers."
+    },
+    {
+      "question": "What is the speed of light?",
+      "answer": "The speed of light is approximately 299,792 kilometers per second."
+    },
+    {
+      "question": "When was the Declaration of Independence signed?",
+      "answer": "The Declaration of Independence was signed on July 4, 1776."
+    },
+    {
+      "question": "Who is Cristiano Ronaldo? ",
+      "answer": "A football player "
+    }
+  ]
+}
